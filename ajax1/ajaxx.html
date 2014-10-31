@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+<title>Prueba</title>
+<link rel="shortcut icon" type="image/x-icon" href="dead.jpg">
+<script type="text/javascript" src="js2/jquery-1.4.2.min.js"></script><!--linea para ajax-->
+<script type="text/javascript" src="js2/jquery-ui-1.8.2.custom.min.js"></script><!--linea ajax-->
+</head>
+<body>
+Está es una prueba<br>
+<input type='submit' value='Resultado' id='res'>
+<div id='ajax'></div>
+<script type="text/javascript">
+$(function (e) {
+	$('#res').click(function (e) {
+		e.preventDefault()
+		$('#ajax').load('prueba.html')
+	})
+})
+</script>
+</body>
+</html>

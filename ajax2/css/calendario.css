@@ -1,0 +1,54 @@
+/*
+Autor: Cruz Rosales
+Última modificación: 20080308-2200
+Contacto: crosalesc@gmail.com
+~by__ _  __  |^|_  __  _ __ _ __  _   _ _ __   __
+ / _ ` | _  \  __| _  \ '__| '_  \ | | | '_  \´  \
+| (_)  | __ /  |_| ___/ |  | | | | |_| | | | | | |
+ \ __,_|\___|\___|\___|_|  |_| |_|\___/|_| |_| |_|crc<>
+*/
+.calendario {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	width:21em;
+	position:absolute;
+}
+.tcalendario {
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+	background-color:#75aafb;
+}
+.tcalendario select {
+	width:95%;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.calendario_dia_disponible {
+	font-size:11px;
+	cursor:pointer;
+	cursor:hand;
+}
+.calendario_dia_vacio {
+	cursor:normal;
+}
+.calendario_hoy {
+	font-size:12px;
+	cursor:pointer;
+	cursor:hand;
+}
+.calendario_cierra {
+	font-size:12px;
+	cursor:pointer;
+	cursor:hand;
+	color:#990000;
+}
+.calendario_dias th {
+	width:3em;
+	font-weight:bold;
+	background-color:#5095fe;
+}
